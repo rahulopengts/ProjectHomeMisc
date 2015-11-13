@@ -1,0 +1,7 @@
+ItemRegistryImpl - This has intance of ItemProvide (GenericItemProviderImpl)
+GenericProviderImpl has referwnce to ModelRepository
+GenericProvideImpl has all the initalization for ModelRepository from the constructor itself. Using DI the intance of ItemProvider is set by xml engine.
+
+ItemRegistryImpl maintains the cache of Items in Collections.
+
+
